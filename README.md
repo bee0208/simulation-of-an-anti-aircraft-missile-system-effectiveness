@@ -11,10 +11,10 @@ The application interface is divided into two main parts: the input data panel (
 ### The left panel of the application
 The input panel contains four cells where initial conditions can be edited. It consists of the following cells and each of them is editable:
 1) Shooting Parameters:
-• parallel simulations (on or off);
-• simulation time;
-• number of shoots;
-• type of guidance.
+- • parallel simulations (on or off);
+- • simulation time;
+- • number of shoots;
+- • type of guidance.
 2) Guidance errors:
 • rocket tracking error in elevation, azimuth and distance [degrees];
 • target tracking error in elevation, azimuth and distance [degrees].
