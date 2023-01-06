@@ -50,24 +50,24 @@ After performing the simulation and loading the data into the right panel of the
 
 ![image](https://user-images.githubusercontent.com/118617819/211042285-c2e82819-62b6-4260-a884-c99c58d7cb68.png)
 
-The „DANE CELU” ("TARGET DATA") tab contains:
+1) The „DANE CELU” ("TARGET DATA") tab contains:
 • chart of the target's path in three-dimensional coordinates;
 • plot of the target's path in two-dimensional coordinates;
 • plot of the target's path in polar coordinates;
 • a table summarizing the targets in the shooting series.
-The „DANE STRZELANIA” ("SHOOTING DATA") tab contains:
+2) The „DANE STRZELANIA” ("SHOOTING DATA") tab contains:
 • chart of the target and rocket movement track in three-dimensional coordinates;
 • a chart of the target and rocket trajectory in two-dimensional coordinates;
 • chart of the target and rocket movement track in polar coordinates;
 • chart of target and rocket speed;
 • a table summarizing the series of shootings.
-The „ROZRZUT POCISKÓW” ("SHOT SPREAD") tab contains:
+3) The „ROZRZUT POCISKÓW” ("SHOT SPREAD") tab contains:
 • box chart;
 • histograms;
 • characteristics of hit points;
 • dispersion characteristics;
 • a table of position and error dispersion indicators.
-The „PRAWDOPODOBIEŃSTWO PORAŻENIA CELU” ("PROBABILITY OF TARGET SHOCK") tab contains:
+4) The „PRAWDOPODOBIEŃSTWO PORAŻENIA CELU” ("PROBABILITY OF TARGET SHOCK") tab contains:
 • a graph of the probability of striking a target from a deviation;
 • pie chart of the obtained probability;
 • bar graph of the obtained probability.
