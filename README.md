@@ -41,3 +41,33 @@ The situation is analogous if we want to run a single simulation of the guidance
 
 The green "SYMULACJA" ("SIMULATION") button simulates the guidance circuit the set number of times. The simulation process is the same as in the simulation program.
 ### The right panel of the application
+The right panel of the application is a summary of the simulation. Its task is to present the fire characteristics and the obtained statistical data regarding the dispersion, the probability of striking the target or targets. Charts, tables and statistical data are presented here.
+After opening the application, the right panel is blank and shows no information. After pressing the "SYMULACJA" ("SIMULATION") button, a window is displayed showing information about the ongoing simulation of a specific number of shots in the background of the program. While the additional window is displayed, numerical calculations are in progress, initially by the simulation program, and then by the research program.
+
+![image](https://user-images.githubusercontent.com/118617819/211042176-6c2cd1c9-e60b-4e54-88b2-4a26ed6721e2.png)
+
+After performing the simulation and loading the data into the right panel of the application, a summary of the shooting simulation is visible. The Shooting Simulation Summary is divided into four tabs: Target Data, Shooting Data, Bullet Spread, Target Shock Probability.
+
+![image](https://user-images.githubusercontent.com/118617819/211042285-c2e82819-62b6-4260-a884-c99c58d7cb68.png)
+
+The „DANE CELU” ("TARGET DATA") tab contains:
+• chart of the target's path in three-dimensional coordinates;
+• plot of the target's path in two-dimensional coordinates;
+• plot of the target's path in polar coordinates;
+• a table summarizing the targets in the shooting series.
+The „DANE STRZELANIA” ("SHOOTING DATA") tab contains:
+• chart of the target and rocket movement track in three-dimensional coordinates;
+• a chart of the target and rocket trajectory in two-dimensional coordinates;
+• chart of the target and rocket movement track in polar coordinates;
+• chart of target and rocket speed;
+• a table summarizing the series of shootings.
+The „ROZRZUT POCISKÓW” ("SHOT SPREAD") tab contains:
+• box chart;
+• histograms;
+• characteristics of hit points;
+• dispersion characteristics;
+• a table of position and error dispersion indicators.
+The „PRAWDOPODOBIEŃSTWO PORAŻENIA CELU” ("PROBABILITY OF TARGET SHOCK") tab contains:
+• a graph of the probability of striking a target from a deviation;
+• pie chart of the obtained probability;
+• bar graph of the obtained probability.
