@@ -11,21 +11,21 @@ The application interface is divided into two main parts: the input data panel (
 ### The left panel of the application
 The input panel contains four cells where initial conditions can be edited. It consists of the following cells and each of them is editable:
 1) Shooting Parameters:
-- • parallel simulations (on or off);
-- • simulation time;
-- • number of shoots;
-- • type of guidance.
+- parallel simulations (on or off);
+- simulation time;
+- number of shoots;
+- type of guidance.
 2) Guidance errors:
-• rocket tracking error in elevation, azimuth and distance [degrees];
-• target tracking error in elevation, azimuth and distance [degrees].
+- rocket tracking error in elevation, azimuth and distance [degrees];
+- target tracking error in elevation, azimuth and distance [degrees].
 3) Warhead parameters:
-• mass of the explosive charge;
-• number of fragments;
-• splinter spread angle.
+- mass of the explosive charge;
+- number of fragments;
+- splinter spread angle.
 4) Target movement parameters:
-• starting position of the target xyz;
-• sensitive surface of the target;
-• initial speed.
+- starting position of the target xyz;
+- sensitive surface of the target;
+- initial speed.
 
 The application allows you to add any maneuvers of the target that you want to simulate. By clicking on the „Parametry ruchu celu” ("Target movement parameters") cell on the yellow button called „Dodaj manewry” ("Add maneuvers") a secondary application opens. The main application provides the second application with matrices characterizing the motion parameters of the target. In the new window, it is possible to add target maneuvers that interest us. User-created maneuvers appear in the table above the „ZAAKCEPTUJ” ("ACCEPT") and „ANULUJ” ("CANCEL") buttons. To accept the added maneuvers, just press the blue button. At this point, the slave application sends the modified matrices of target motion parameters to the master application. If the user does not want to modify these matrices in the parent application, he should press the red button or close the window. To clear all added maneuvers in the main window, press the bright red „Wyczyść manewry” ("Clear maneuvers") button.
 
@@ -51,23 +51,23 @@ After performing the simulation and loading the data into the right panel of the
 ![image](https://user-images.githubusercontent.com/118617819/211042285-c2e82819-62b6-4260-a884-c99c58d7cb68.png)
 
 1) The „DANE CELU” ("TARGET DATA") tab contains:
-• chart of the target's path in three-dimensional coordinates;
-• plot of the target's path in two-dimensional coordinates;
-• plot of the target's path in polar coordinates;
-• a table summarizing the targets in the shooting series.
+- chart of the target's path in three-dimensional coordinates;
+- plot of the target's path in two-dimensional coordinates;
+- plot of the target's path in polar coordinates;
+- a table summarizing the targets in the shooting series.
 2) The „DANE STRZELANIA” ("SHOOTING DATA") tab contains:
-• chart of the target and rocket movement track in three-dimensional coordinates;
-• a chart of the target and rocket trajectory in two-dimensional coordinates;
-• chart of the target and rocket movement track in polar coordinates;
-• chart of target and rocket speed;
-• a table summarizing the series of shootings.
+- chart of the target and rocket movement track in three-dimensional coordinates;
+- a chart of the target and rocket trajectory in two-dimensional coordinates;
+- chart of the target and rocket movement track in polar coordinates;
+- chart of target and rocket speed;
+- a table summarizing the series of shootings.
 3) The „ROZRZUT POCISKÓW” ("SHOT SPREAD") tab contains:
-• box chart;
-• histograms;
-• characteristics of hit points;
-• dispersion characteristics;
-• a table of position and error dispersion indicators.
+- box chart;
+- histograms;
+- characteristics of hit points;
+- dispersion characteristics;
+- a table of position and error dispersion indicators.
 4) The „PRAWDOPODOBIEŃSTWO PORAŻENIA CELU” ("PROBABILITY OF TARGET SHOCK") tab contains:
-• a graph of the probability of striking a target from a deviation;
-• pie chart of the obtained probability;
-• bar graph of the obtained probability.
+- a graph of the probability of striking a target from a deviation;
+- pie chart of the obtained probability;
+- bar graph of the obtained probability.
