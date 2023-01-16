@@ -71,7 +71,7 @@ subplot(3,1,2)
 set(gca,'XGrid','off','YGrid','on')
 subplot(3,1,3)
 set(gca,'XGrid','off','YGrid','on')
-% wyznaczanie charakterystyki prawdopodobieństwa porażenia celu na podstawie założen
+%wyznaczanie charakterystyki prawdopodobieństwa porażenia celu na podstawie założen
 wykres_pstwa_porazenia_celu(struktura_danych.parametry_glowicy_rakiety,struktura_danych.xyz_r(end,3),50)
 %procentowy wykaz przedziałów prawdopodobieństwa porażenia celu w danym strzelaniu
 [~]=piechart_pstwo(struktura_danych.macierz_podsumowania); 

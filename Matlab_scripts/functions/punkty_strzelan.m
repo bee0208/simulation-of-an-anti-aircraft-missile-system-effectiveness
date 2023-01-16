@@ -1,4 +1,5 @@
 function [hE,hB,h] = punkty_strzelan(xyz_r,xyz_c)
+
 %wyznaczanie odległości rakiety i celu od SNR oraz odległości między rakietą a celem
 R=sqrt((xyz_c(end,1)-xyz_r(end,1))^2+(xyz_c(end,2)-xyz_r(end,2))^2+(xyz_c(end,3)-xyz_r(end,3))^2);
 Rc=sqrt(xyz_c(end,1)^2+xyz_c(end,2)^2+xyz_c(end,3));

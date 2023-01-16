@@ -1,6 +1,7 @@
 function  charakterystyka_punktow_trafien(H)
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
+%function which plots hit points characteristics of the
+%missile set
+
 figure
 hold on 
 scatter(H(:,2),H(:,1),15,'blue','*')
@@ -9,7 +10,6 @@ ax = gca;
 ax.XAxisLocation = 'origin';
 ax.YAxisLocation = 'origin';
 title('Charakterystyka punktów trafień')
-% title('Charakterystyka ogniowa')
 xlabel('h_\beta [m]')
 ylabel('h_\epsilon [m]')
 legend('h_\beta^*, h_\epsilon^*','cel')

@@ -1,6 +1,6 @@
 function [r_napr, g]  = rodzaj_naprowadzania(r_naprowadzania)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
+%function which choose guidance mythology
+
 if strncmpi(r_naprowadzania,'Metoda pokrycia',9)
     r_napr={'Metoda pokrycia'};
     g=0;

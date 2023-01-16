@@ -99,7 +99,7 @@ out = sim(in,'UseFastRestart','on');
 outc=sim("cel_sim.slx",'FastRestart','on');
 
 % %sprawdzenie czy cel znajduje się w zasięgu zestawu 
-% if any(out.flag_r_start) || any(out.flag_r_cel)    
+if any(out.flag_r_start) || any(out.flag_r_cel)    
     
     %deklaracja parametrów symulacji
     for i=l_strzelan:-1:1
@@ -145,9 +145,9 @@ outc=sim("cel_sim.slx",'FastRestart','on');
     %wykonanie serii strzelań
     outsim = parsim(in,'UseFastRestart','on');
 %     outsim = sim(in,'UseFastRestart','on');
-% else
-%     error('Cel poza zasięgiem PZR')
-% end
+else
+    error('Cel poza zasięgiem PZR')
+end
 %% Obróbka danych
 
 %Wykrycie rodzaju celu

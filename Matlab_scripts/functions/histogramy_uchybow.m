@@ -1,15 +1,5 @@
 function histogramy_uchybow(H)
-%UNTITLED Summary of this function goes here
-%   Detailed explanation goes here
-% figure
-% histogram(H(:,2),15)
-% title({'histogram';'h_\beta'})
-% xlabel('[m]')
-% 
-% figure
-% histogram(H(:,1),15)
-% title({'histogram';'h_\epsilon'})
-% xlabel('[m]')
+%function which plots error histograms of the missile set
 
 figure
 ax1 = subplot(3,1,1);

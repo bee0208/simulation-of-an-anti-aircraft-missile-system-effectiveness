@@ -1,4 +1,5 @@
 function y = azymut(x, y)
+%function which calculate azimuth for x, y coordinates
 
 if x>0 && y>0
     u=abs(atan(y/x));

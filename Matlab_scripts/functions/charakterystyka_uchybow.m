@@ -1,4 +1,7 @@
 function charakterystyka_uchybow(sigma_B,sigma_E,M)
+%function which plots spread of hit points characteristics of the
+%missile set
+
 t=linspace(0,2*pi,100);
 x = sigma_B*cos(t);
 y = sigma_E*sin(t);
@@ -27,8 +30,6 @@ xlabel('h_\beta')
 ylabel('h_\epsilon')
 legend('Cel','Środek rozrzutu [m_\beta, m_\epsilon]','Rozrzut [\sigma_\beta, \sigma_\epsilon]',...
 'Rozrzut [2\sigma_\beta, 2\sigma_\epsilon]','Rozrzut [3\sigma_\beta, 3\sigma_\epsilon]','Location','northeastoutside')
-% legend('Cel','Środek rozrzutu [m_\beta, m_\epsilon]','Rozrzut [\sigma_\beta, \sigma_\epsilon]',...
-% 'Rozrzut [2\sigma_\beta, 2\sigma_\epsilon]','Rozrzut [3\sigma_\beta, 3\sigma_\epsilon]','Location','northwest')
 title('Charakterystyka rozrzutu pocisków')
 ax = gca;
 ax.XAxisLocation = 'origin';

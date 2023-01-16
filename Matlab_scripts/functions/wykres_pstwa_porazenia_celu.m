@@ -1,4 +1,5 @@
 function wykres_pstwa_porazenia_celu(W,H,hmax)
+
 if hmax < 35
     hmax=35;
 end

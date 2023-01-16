@@ -1,6 +1,6 @@
 function p = piechart_pstwo(M)
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
+%function which pie chart of the missile set
+
 P1=nnz(M(:,4)==1);
 P080=nnz(M(:,4)>0.8)-P1;
 P060=nnz(M(:,4)>0.6)-P1-P080;

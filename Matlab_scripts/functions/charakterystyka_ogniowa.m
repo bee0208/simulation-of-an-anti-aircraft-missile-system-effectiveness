@@ -1,6 +1,7 @@
 function  charakterystyka_ogniowa(H,r_celu)
-%UNTITLED3 Summary of this function goes here
-%   Detailed explanation goes here
+%charakterystyka_ogniowa function plots fire characteristics of the
+%missile set
+
 figure
 hold on 
 scatter(0,0,'red','filled')
@@ -9,7 +10,6 @@ ax = gca;
 ax.XAxisLocation = 'origin';
 ax.YAxisLocation = 'origin';
 title({'Charakterystyka ogniowa'; r_celu{1}})
-% title('Charakterystyka ogniowa')
 xlabel('h_\beta [m]')
 ylabel('h_\epsilon [m]')
 legend('cel','h_\beta^*, h_\epsilon^*')

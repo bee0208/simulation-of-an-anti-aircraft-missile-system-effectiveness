@@ -1,4 +1,7 @@
 function charakterystyka_rozrzutu(sigma_B,sigma_E,M)
+%function which plots spread of hit points characteristics of the
+%missile set
+
 t=linspace(0,2*pi,100);
 x = sigma_B.*cos(t);
 y = sigma_E.*sin(t);

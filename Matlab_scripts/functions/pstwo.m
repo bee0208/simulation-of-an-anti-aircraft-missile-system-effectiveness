@@ -1,4 +1,5 @@
 function P = pstwo(h,n,Sw,alfa,H,m)
+
 Z=h/(0.2*m+0.8*1.25*m)^(1/3); %zredukowana odległość
 P0=101332; %ciśnienie na poziomie morza [Pa]
 P0h=101332.*exp(-11.99./101332.*H); %ciśnienie powietrza na wysokości h [Pa]
