@@ -1,0 +1,1 @@
+To open main APP run "aplikacja.mlapp" file
