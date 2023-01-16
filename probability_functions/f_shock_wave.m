@@ -2,12 +2,13 @@
 % Plot showing function of probability of destroying target for shock wave and 
 % warhead fragments
 
-Rpd=10;
-h=linspace(0,100,1000);
-Pf=1-exp(Rpd^2*log(0.9)./h.^2);
-Pf(Rpd*10:end)=Pf(Rpd*10:end).*0;
-Pod=1-exp(-(200./h.^2));
+Rpd=10; %Rpd factor
+h=linspace(0,100,1000); %altitude vector
+Pf=1-exp(Rpd^2*log(0.9)./h.^2); %calculate Pf function
+Pf(Rpd*10:end)=Pf(Rpd*10:end).*0; %0 value assignment for the final part of the vector
+Pod=1-exp(-(200./h.^2)); %calculate Pod function
 
+%plotting figure
 figure 
 hold on
 plot(h,Pf)
@@ -22,7 +23,4 @@ for i=1:length(h)
 end
 plot(h,P)
 hold off
-% c = polyfit(x,P,75)
-% yfit = polyval(c,x);
-% plot(x,yfit,'k')
 legend('shock wave','warhead fragments','Sum')

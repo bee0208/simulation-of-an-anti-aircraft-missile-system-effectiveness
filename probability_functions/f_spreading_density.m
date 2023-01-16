@@ -6,26 +6,29 @@
 % } \right)}}^2 }{2\sigma_{\varepsilon }^2 }\ +\ \frac{{{\left(h_{\beta } -m_{\beta 
 % } \right)}}^2 }{2\sigma_{\beta }^2 }\right]}} \ \$$
 
+%set factors
 s_e=25;
 s_b=23;
 m_e=2;
 m_b=4;
 
+%create meshgrid
 [h_e,h_b] = meshgrid(-20:1:20,-20:1:20);
 
+%calculate spreading density factors
 wsp1=((h_e-m_e).^2/(2*s_e.^2));
 wsp2=((h_b-m_b).^2/(2*s_b.^2));
 
+%calculate function
 f = 1/(2.*pi.*s_e.*s_b).*exp(-(wsp1+wsp2));
 
+%plotting results
 figure
 surf(h_b,h_e,f)
-% shading flat
-% colormap default
 title('f(h_\epsilon^*,h_\beta^*)',"FontSize",15)
 ylabel('h_\epsilon',"FontSize",20)
 xlabel('h_\beta',"FontSize",20)
-% text(m_e+3,m_b+3,3.2e-4,'m_\epsilon,m_\beta',"FontSize",13)
+text(m_e+3,m_b+3,3.2e-4,'m_\epsilon,m_\beta',"FontSize",13)
 
 
 figure
